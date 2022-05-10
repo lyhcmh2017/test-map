@@ -9,6 +9,7 @@ let currentPopup: any = undefined;
 WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('测试输出123');
+    console.log('测试输出456');
     console.log('Player tags: ',WA.player.tags)
     
     WA.room.onEnterLayer('clockZone').subscribe(() => {
