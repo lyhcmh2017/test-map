@@ -8,6 +8,7 @@ let currentPopup: any = undefined;
 // Waiting for the API to be ready
 WA.onInit().then(() => {
     console.log('Scripting API ready');
+    console.log('测试输出123');
     console.log('Player tags: ',WA.player.tags)
     
     WA.room.onEnterLayer('clockZone').subscribe(() => {
